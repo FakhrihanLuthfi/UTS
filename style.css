@@ -1,0 +1,69 @@
+body {
+    background-color: #EDEDED;
+  }
+  
+  header {
+    min-height: 100px;
+  }
+  
+  main {
+    min-height: 100vh;
+  }
+  .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 40px;
+  }
+  div ul li a:hover{
+    color:#fff;
+    text-shadow:  0 0 10px #9E7676,
+                  0 0 20px #9E7676,
+                  0 0 40px #9E7676,
+                  0 0 80px #9E7676,
+                  0 0 120px #9E7676;
+  }
+  
+#image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+h2 {
+  color:#3C4048;
+    text-shadow:  0 0 10px #EDEDED,
+                  0 0 20px #EDEDED,
+                  0 0 40px #EDEDED,
+                  0 0 80px #EDEDED,
+                  0 0 120px #EDEDED;
+}
+.social-icon, .social-icons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  height: 4rem;
+  width: 4rem;
+  margin-right: 1rem;
+  background-color:#393E46;
+  /* background-color: white; */
+}
+@media screen and (min-width: 466px) {
+  .social-icon, .social-icons {
+      margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 382px) {
+  .social-icon, .social-icons {
+      margin-left: 10px !important;
+  }
+}
+p.social-media > a {
+  color: white !important;
+}
+
+
+

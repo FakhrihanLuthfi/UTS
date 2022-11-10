@@ -1,0 +1,41 @@
+body {
+    background-color: #EDEDED;
+  }
+  
+  header {
+    min-height: 100px;
+  }
+  
+  main {
+    min-height: 100vh;
+  }
+  
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+  .container-fluid .row {
+    margin: 0;
+    padding: 0;
+  }
+  div ul li a:hover{
+    color:#fff;
+    text-shadow:  0 0 10px #9E7676,
+                  0 0 20px #9E7676,
+                  0 0 40px #9E7676,
+                  0 0 80px #9E7676,
+                  0 0 120px #9E7676;
+  }
+  .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 40px;
+  }
+  #image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }

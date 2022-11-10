@@ -1,0 +1,27 @@
+body {
+    background-color: #EDEDED;
+  }
+  
+  header {
+    min-height: 100px;
+  }
+  
+  main {
+    min-height: 100vh;
+  }
+  .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 40px;
+  }
+  div ul li a:hover{
+    color:#fff;
+    text-shadow:  0 0 10px #9E7676,
+                  0 0 20px #9E7676,
+                  0 0 40px #9E7676,
+                  0 0 80px #9E7676,
+                  0 0 120px #9E7676;
+  }
+
+  
